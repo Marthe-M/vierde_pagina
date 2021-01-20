@@ -1,0 +1,85 @@
+body { 
+    background-color: rgb(172, 180, 204);
+    font-family: Arial, Helvetica, serif;
+    margin: 20px;
+}
+
+h1{
+    font-size: 25px;
+    color:#1f41b1;
+    font-weight: bold;
+    text-shadow: 2px 2px grey;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+
+h2{
+    font-size: 18px;
+    color:rgb(5, 68, 109);
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+
+.list{
+    border: 5px dotted rgb(6, 59, 10);
+    padding: 35px;
+}
+
+nav {
+    background-color:rgb(5, 45, 71);
+    color:rgb(172, 180, 204);
+    padding: 35px;
+}
+
+ul{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    list-style-type: square;
+    line-height: 1.8;
+}
+
+footer{
+    padding: 20px; 
+    background-color: rgb(73, 98, 175);
+    border: 2px solid rgb(54, 4, 4);
+    font-size: 15px;
+}
+
+a.about:link, a.about:visited {
+    background-color: #36bef4;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  a.about:hover, a.about:active {
+    background-color: rgb(59, 6, 184);
+  }
+  
+  a#google:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a#google:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a#google:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a#google:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
